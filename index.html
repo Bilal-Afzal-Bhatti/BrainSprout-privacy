@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – BrainSprout Kids</title>
+    <meta name="description" content="Privacy Policy for BrainSprout Kids, a quiz game for children by Mehdi Technologies.">
+    <style>
+        :root {
+            --purple: #5B2EC4;
+            --purple-dark: #2B1466;
+            --purple-light: #8F6AF0;
+            --purple-soft: #EFE9FF;
+            --text: #1E1442;
+            --text-muted: #6E6890;
+            --border: #EEEAF7;
+            --bg-soft: #F8F6FD;
+            --green-soft: #E7F9EE;
+            --radius: 16px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg-soft);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(160deg, #7442E8 0%, #5428C4 55%, #341784 100%);
+            color: #fff;
+            padding: 56px 20px 88px;
+            text-align: center;
+        }
+        header::before, header::after {
+            content: "";
+            position: absolute;
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+        }
+        header::before { top: -120px; right: -100px; }
+        header::after { bottom: -160px; left: -120px; }
+
+        .logo {
+            width: 84px;
+            height: 84px;
+            margin: 0 auto 16px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.14);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 44px;
+        }
+        header h1 { font-size: clamp(28px, 6vw, 40px); font-weight: 800; letter-spacing: -0.5px; }
+        header p { color: rgba(255, 255, 255, 0.78); margin-top: 6px; font-size: 15px; }
+        .pill {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: #fff;
+            color: var(--purple-dark);
+            font-size: 13px;
+            font-weight: 800;
+        }
+
+        main {
+            max-width: 780px;
+            margin: -56px auto 0;
+            padding: 0 16px 48px;
+            position: relative;
+        }
+
+        .summary {
+            background: #fff;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 10px 30px rgba(43, 20, 102, 0.12);
+            margin-bottom: 20px;
+        }
+        .summary h2 { font-size: 18px; font-weight: 800; margin-bottom: 14px; }
+        .facts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .fact {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            background: var(--green-soft);
+            border-radius: 12px;
+            padding: 12px 14px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .fact span { font-size: 18px; line-height: 1.2; }
+
+        section {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 22px 24px;
+            margin-bottom: 14px;
+        }
+        section h2 {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .icon {
+            flex: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--purple-soft);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        section p { color: var(--text-muted); margin-bottom: 10px; }
+        section p:last-child { margin-bottom: 0; }
+        section ul { list-style: none; margin: 6px 0 10px; }
+        section li {
+            position: relative;
+            padding-left: 22px;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+        section li::before {
+            content: "";
+            position: absolute;
+            left: 4px;
+            top: 10px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--purple-light);
+        }
+        strong { color: var(--text); }
+
+        .contact { text-align: center; background: var(--purple-soft); border: none; }
+        .contact h2 { justify-content: center; }
+        .btn {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 14px 28px;
+            border-radius: 999px;
+            background: var(--purple);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            font-size: 14px;
+            box-shadow: 0 5px 0 var(--purple-dark);
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+        .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--purple-dark); }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+            padding: 8px 16px 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">🌱</div>
+        <h1>Privacy Policy</h1>
+        <p>BrainSprout Kids · by Mehdi Technologies</p>
+        <span class="pill">Last updated: 10 November 2026</span>
+    </header>
+
+    <main>
+
+        <div class="summary">
+            <h2>The short version 👋</h2>
+            <div class="facts">
+                <div class="fact"><span>✅</span> No accounts or sign-up</div>
+                <div class="fact"><span>✅</span> No personal data collected</div>
+                <div class="fact"><span>✅</span> No ads and no tracking</div>
+                <div class="fact"><span>✅</span> Everything stays on the device</div>
+            </div>
+        </div>
+
+        <section>
+            <h2><span class="icon">📖</span>About this policy</h2>
+            <p>
+                This Privacy Policy explains how <strong>BrainSprout Kids</strong> (“the app”, “we”, “us”), made by
+                <strong>Mehdi Technologies</strong>, handles information. The app is a quiz game designed for children,
+                and we built it so that it does not collect, store or share any personal information.
+            </p>
+        </section>
+
+        <section>
+            <h2><span class="icon">📱</span>Information stored on the device</h2>
+            <p>To make the game work, the app saves a small amount of information <strong>only on the device it is installed on</strong>:</p>
+            <ul>
+                <li>The first name or nickname the player types in (used to say “Great job, Sam!”)</li>
+                <li>Coins earned, best scores and the chosen difficulty mode</li>
+                <li>Unfinished quizzes, so the player can continue later</li>
+            </ul>
+            <p>
+                This information is <strong>never sent to us or to anyone else</strong>. We have no servers that receive it,
+                and we cannot see it. We recommend using a nickname instead of a full name.
+            </p>
+        </section>
+
+        <section>
+            <h2><span class="icon">🚫</span>Information we do not collect</h2>
+            <ul>
+                <li>No email addresses, phone numbers or home addresses</li>
+                <li>No location data</li>
+                <li>No photos, contacts, camera or microphone access</li>
+                <li>No advertising IDs, analytics or tracking tools</li>
+                <li>No in-app purchases</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><span class="icon">🧒</span>Children’s privacy</h2>
+            <p>
+                BrainSprout Kids is made for children. Because the app does not collect personal information, it is designed
+                to meet the requirements of children’s privacy laws such as the Children’s Online Privacy Protection Act (COPPA)
+                and Google Play’s Families Policy.
+            </p>
+            <p>
+                The app shows <strong>no advertising</strong>, has <strong>no chat or social features</strong>, and contains
+                <strong>no links that take children out of the app</strong>.
+            </p>
+        </section>
+
+        <section>
+            <h2><span class="icon">🔗</span>Third-party services</h2>
+            <p>
+                The app does not share information with third parties. It is built with the open-source Expo and React Native
+                frameworks, which we have set up without analytics or advertising.
+            </p>
+            <p>
+                When the app is downloaded from an app store (such as Google Play), that store may collect information under its
+                own privacy policy. We do not receive personal information from the store.
+            </p>
+        </section>
+
+        <section>
+            <h2><span class="icon">🗑️</span>Deleting your data</h2>
+            <p>All game data can be removed at any time by either:</p>
+            <ul>
+                <li>Opening the app → <strong>Profile</strong> → <strong>Reset all progress</strong>, or</li>
+                <li>Uninstalling the app, which deletes everything it saved</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><span class="icon">🔒</span>Security</h2>
+            <p>
+                Game data is kept in the app’s private storage on the device, which other apps cannot read. Because nothing is
+                sent over the internet, there is no data for us to lose or leak.
+            </p>
+        </section>
+
+        <section>
+            <h2><span class="icon">🔄</span>Changes to this policy</h2>
+            <p>
+                If we change how the app handles information, we will update this page and the “Last updated” date above.
+                If a change ever involves collecting new information, we will update the app and this policy before that change happens.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h2><span class="icon">💌</span>Contact us</h2>
+            <p>Parents and guardians, if you have any questions about this policy, we’re happy to help.</p>
+            <a class="btn" href="mailto:mehditechnologiesapps@gmail.com">Email us</a>
+            <p style="margin-top: 12px; font-size: 14px;">mehditechnologiesapps@gmail.com</p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Mehdi Technologies · BrainSprout Kids 🌱
+    </footer>
+
+</body>
+</html>
